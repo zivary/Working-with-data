@@ -22,33 +22,33 @@
     - 최근 변화한 소비 트렌드에 가장 민감하게 반응한 소득별 계층 분석
 
 1. 데이터프레임
-  - 상품 데이터프레임
-  > - product_num* : 상품 코드
-  > - price* : 상품 가격
-  > - price_grade : 고가 중가 저가 여부
+      - 상품 데이터프레임
+        - product_num* : 상품 코드 
+        - price* : 상품 가격 
+        - price_grade : 고가 중가 저가 여부
 
-  - 고객 데이터프레임
->- cusno* : 고객 번호
->- region* : 지역  
->- gender* : 성별  
->- age* : 나이  
->- income* : 급여  
->- grade_20 : 2020년 회원 등급
->- grade_21 : 2021년 회원 등급
->- ARPPU_20 : 2020년 회당 평균 결제액
->- ARPPU_21 : 2021년 회당 평균 결제액
->- AVC_20 : 2020년 연간 방문 횟수
->- AVC_21 : 2021년 연간 방문 횟수
->- purchase_trend : 고개 구매 추세 변화\
-    
-  - 거래 데이터프레임
->- num_ts* : 거래 번호
->- cusno_ts* : 고객 변호
->- product_num_ts* : 상품코드
->- price_ts : 상품 가격
->- quantity* : 수량
->- amount : 해당 거래 매출
->- date*: 거래 날짜
->- year, weekday, hour : 거래 년도, 요일, 시간
+      - 고객 데이터프레임
+        - cusno* : 고객 번호
+        - region* : 지역  
+        - gender* : 성별  
+        - age* : 나이  
+        - income* : 급여  
+        - grade_20 : 2020년 회원 등급
+        - grade_21 : 2021년 회원 등급
+        - ARPPU_20 : 2020년 회당 평균 결제액
+        - ARPPU_21 : 2021년 회당 평균 결제액
+        - AVC_20 : 2020년 연간 방문 횟수
+        - AVC_21 : 2021년 연간 방문 횟수
+        - purchase_trend : 고개 구매 추세 변화
+
+      - 거래 데이터프레임
+        - num_ts* : 거래 번호
+        - cusno_ts* : 고객 변호
+        - product_num_ts* : 상품코드
+        - price_ts : 상품 가격
+        - quantity* : 수량
+        - amount : 해당 거래 매출
+        - date*: 거래 날짜
+        - year, weekday, hour : 거래 년도, 요일, 시간
 
  **변수명* <- 독립변수로 직접 입력해준 데이터**
